@@ -1,5 +1,7 @@
 <h1>Listing dogs</h1>
 
+Repo: <%= link_to "Github", 'https://github.com/nearapogee/cf-dog_tracker' %>
+
 <table>
   <thead>
     <tr>
@@ -23,6 +25,8 @@
     <% end %>
   </tbody>
 </table>
+
+<%= paginate @dogs %>
 
 <br>
 
